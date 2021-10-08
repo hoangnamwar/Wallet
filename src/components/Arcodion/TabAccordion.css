@@ -1,0 +1,45 @@
+.tabAccordion
+{
+    /* height: max-content; */
+    height: 100%;
+    border: 4px solid var(--IdigoInk);
+    border-radius: 10px;
+}
+.tabAccordion2
+{
+    /* height: max-content; */
+    height: 100% ;
+    border: 4px solid var(--IdigoInk);
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+.tabAccodion-flex-btn
+{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background-color: var(--white);
+}
+.tabAccodion-click
+{
+    background-color: var(--IdigoInk) !important;
+    color: var(--white) !important;
+}
+.css-9l5vo-MuiCollapse-wrapperInner {
+    width: 100%;
+    background-color: var(--white) !important;
+}
+.tabAccodion_under
+{
+    text-decoration: none;
+}
+@media (max-width: 1200px) {
+    .tabAccordion2
+    {
+        flex-direction: row;
+        height: auto;
+        /* width: 100%; */
+    }
+}

@@ -1,0 +1,39 @@
+.list_dense_padding
+{
+    padding-left: 20px;
+}
+.list_title
+{
+    background-color: var(--Blueberry);
+    color: var(--white);
+}
+.list_title_change
+{
+    color: var(--IdigoInk) !important;
+    font-weight: 550 !important;
+}
+/* .css-1yjjitx-MuiSwitch-track
+{
+    background-color: var(--Blueberry) !important;
+}
+.css-jsexje-MuiSwitch-thumb
+{
+    background-color: var(--MidnightBlue) !important;
+} */
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
+{
+    color: var(--MidnightBlue) !important;
+}
+.list_task
+{
+    display: flex;
+    flex-direction: row;
+}
+.list_green
+{
+    color: green !important;
+}
+.list_red
+{
+    color: red !important;
+}

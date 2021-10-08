@@ -1,0 +1,35 @@
+.header
+{
+    padding: 10px;
+    background-color: var(--MidnightBlue);
+    color: var(--white);
+    margin-bottom: 50px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo
+{
+    max-height: 40px;
+}
+.hearder_addIcon
+{
+    cursor: pointer;
+}
+.hearder_menuIcon
+{
+    padding-left: 60px;
+    cursor: pointer;
+}
+.header_signIn
+{
+    position: absolute;
+    top: 40;
+    color: var(--MidnightBlue);
+    background-color: var(--white);
+    padding: 20px;
+    font-weight: 500;
+    width: 120%;
+    margin-left: -20px;
+}
